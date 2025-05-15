@@ -91,12 +91,26 @@ Store-Desk/
 
 ---
 
-## 📦 Future Enhancements
 
-- 🔐 Authentication system (admin login)
-- 🧾 Order management
-- 📊 Dashboard analytics
-- 🖼️ Product images and categories
+## 🛒 Features Implemented
+
+### Product Form with Validation
+
+- Add new products using a user-friendly form
+- Input validation includes:
+  - Required fields
+  - Proper number formats
+
+### Product List with Search
+
+- Displays all submitted products in a structured list
+
+
+### API Integration
+
+- All product data is stored and retrieved via RESTful APIs
+- Backend built using Node.js, Express, and PostgreSQL
+
 
 ---
 
