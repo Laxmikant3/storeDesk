@@ -75,12 +75,10 @@ A minimal full-stack e-commerce web application with an admin panel to manage pr
 
 ## ✅ What's Working
 
-- ✅ **Add Product Form** with 12+ fields and validations
-- ✅ **Product Listing Page** styled like Amazon (clean UI)
 - ✅ **Responsive Design** using Tailwind CSS
 - ✅ **REST API** for product CRUD operations
 - ✅ **PostgreSQL Integration** for product data
-- ✅ **Deployment on Google Cloud Run**
+- ✅ **Deployment on Vercel**
 - ✅ **Connected frontend and backend**
 
 ---
