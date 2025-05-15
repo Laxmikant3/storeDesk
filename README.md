@@ -34,8 +34,13 @@ A minimal full-stack e-commerce web application with an admin panel to manage pr
    ```bash
    npm run dev
    ```
+4. Set up environment variables:
+   Create a `.env` file in the `Frontend` folder with the following content:
 
-4. App will be available at `http://localhost:5173`
+   ```
+   VITE_BACKEND_URL=http://localhost:3000
+   ```
+5. App will be available at `http://localhost:5173`
 
 ---
 
@@ -55,7 +60,7 @@ A minimal full-stack e-commerce web application with an admin panel to manage pr
    Create a `.env` file in the `backend` folder with the following content:
 
    ```
-   PORT=5000
+   PORT=3000
    DATABASE_URL=postgresql://<username>:<password>@localhost:5432/<your_db_name>
    ```
 
