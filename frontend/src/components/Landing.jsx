@@ -4,7 +4,7 @@ import cartImg from '../assets/image2.png';
 const Landing = ({ onAddProductClick }) => {
   return (
     <div className="min-h-[calc(50vh-4rem)] flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto mt-7 px-4 text-center md:text-left">
-      {/* Left Content */}
+     
       <div className="flex-1">
         <ShoppingBag size={64} className="text-amber-500 mb-6 mx-auto md:mx-0" />
         <h1 className="text-4xl md:text-5xl font-bold mb-2">
@@ -22,7 +22,6 @@ const Landing = ({ onAddProductClick }) => {
         </button>
       </div>
 
-      {/* Right Image with blend */}
       <div className="flex-1 mt-10 md:mt-0">
         <img
           src={cartImg}
