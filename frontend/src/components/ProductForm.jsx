@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Plus } from 'lucide-react';
-import { toast } from 'react-toastify'; // ✅ Import toast
-import 'react-toastify/dist/ReactToastify.css'; // (Already globally imported in App.jsx)
+import { toast } from 'react-toastify'; 
+import 'react-toastify/dist/ReactToastify.css'; 
 import { useProductContext } from '../context/productContext';
 
 function ProductForm() {
@@ -30,10 +30,10 @@ function ProductForm() {
     });
 
     if (result.success) {
-      toast.success('✅ Product submitted!');
+      toast.success('Product submitted!');
       setForm({ name: '', price: '', description: '', image_url: '' });
     } else {
-      toast.error('❌ Error submitting product');
+      toast.error('Error submitting product');
     }
 
     setSubmitting(false);
@@ -48,7 +48,6 @@ function ProductForm() {
         </h2>
 
         <form onSubmit={handleSubmit}>
-          {/* Name + Price in row */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
             <div>
               <label className="block text-gray-300 mb-1">Product Name</label>
@@ -74,7 +73,6 @@ function ProductForm() {
             </div>
           </div>
 
-          {/* Description */}
           <div className="mb-4">
             <label className="block text-gray-300 mb-1">Description</label>
             <textarea
@@ -85,7 +83,6 @@ function ProductForm() {
             />
           </div>
 
-          {/* Image URL */}
           <div className="mb-6">
             <label className="block text-gray-300 mb-1">Image URL</label>
             <input
@@ -97,7 +94,6 @@ function ProductForm() {
             />
           </div>
 
-          {/* Submit button */}
           <button
             type="submit"
             disabled={submitting}
