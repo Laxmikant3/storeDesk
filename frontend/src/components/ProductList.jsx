@@ -46,6 +46,7 @@ function ProductList() {
     if (result.success) {
       setEditingId(null);
       toast.success('Product updated successfully!');
+      fetchProducts();
     } else {
       toast.error('Error updating product');
     }
