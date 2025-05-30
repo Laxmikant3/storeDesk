@@ -85,10 +85,8 @@ function ProductList() {
 
   return (
     <div className="max-w-7xl mx-auto mt-4 px-4">
-      {/* Add the Toaster component */}
       <Toaster position="top-right" />
 
-      {/* Search Bar */}
       <div className="relative mb-6">
         <input
           type="text"
@@ -100,7 +98,6 @@ function ProductList() {
         <Search className="absolute left-3 top-3 text-gray-500" size={18} />
       </div>
 
-      {/* Loading Spinner */}
       {loading ? (
         <div className="flex justify-center my-10">
           <div className="w-8 h-8 border-4 border-t-blue-500 border-gray-300 rounded-full animate-spin"></div>
